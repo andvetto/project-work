@@ -8,20 +8,14 @@
 		$db_password = 'root';
 	}
 			//remoto
-	elseif($_SERVER['HTTP_HOST'] == 'alunno14.corsi-idi.it')
-	{
-		$db_host = 'hostingmysql270.register.it';
-		$db_name = 'corsi__idi_it_alunno4';
-		$db_user = 'CRR33_alunno4';
-		$db_password = 'db02#IDI';
-	}
+
 		
 		else
 	{
-		$db_host = 'localhost';
-		$db_name = 'id10371893_contatti';
-		$db_user = 'id10371893_andvetto';
-		$db_password = 'andvetto';
+		$db_host = 'fdb26.awardspace.net';
+		$db_name = '3239491_filminfo';
+		$db_user = '3239491_filminfo';
+		$db_password = 'K@paro86';
 	}
 
 

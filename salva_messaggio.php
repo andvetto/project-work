@@ -8,9 +8,9 @@
 		require_once 'lib/DbManager.php';
 	}
 			//remoto
-	elseif($_SERVER['HTTP_HOST'] == 'alunno14.corsi-idi.it')
+	else
 	{
-		require_once 'lib/DbManager_mysql.php';
+		require_once 'lib/DbManager.php';
 	}
 	
     require_once 'lib/funzioni.php';
